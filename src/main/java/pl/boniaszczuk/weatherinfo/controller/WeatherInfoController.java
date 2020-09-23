@@ -18,10 +18,10 @@ import java.util.Collections;
 @EnableScheduling
 @Service
 public class WeatherInfoController {
-    @Value("http://api.openweathermap.org/data/2.5/weather?q=gdańsk")
+    @Value("${baseUrl}")
     private String baseUrl;
 
-    @Value("&appid=d874a49066ac1c9e04a52c86f408e367")
+    @Value("${apiId}")
     private String apiKey;
 
     WeatherRepo weatherRepo;
