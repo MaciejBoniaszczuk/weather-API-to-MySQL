@@ -5,4 +5,4 @@
 - API from openweathermap.org
 - Hibernate
 
-![sql screen](weather-info.png)
+![sql screen](weather-info.PNG)
