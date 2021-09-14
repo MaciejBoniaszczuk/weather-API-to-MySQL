@@ -4,3 +4,5 @@
 - SpringBoot
 - API from openweathermap.org
 - Hibernate
+
+![sql screen](weather-info.png)
